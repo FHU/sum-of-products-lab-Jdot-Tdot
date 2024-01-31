@@ -17,4 +17,8 @@ def get_input_to_list():
 
 if __name__ == '__main__':
    #REMOVE PASS AND YOUR CODE GOES HERE
-    pass
+    
+    list1 = get_input_to_list()
+    list2 = get_input_to_list()
+
+    the_sum = sum_of_products(list1,list2)
